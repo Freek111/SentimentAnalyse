@@ -1,7 +1,7 @@
 import re
 
-print(re.findall('abc', 'kasdfaiabcasdfaabc'))
+x = '72314ab4621acd&+*!'
 
-iterator = re.finditer('abc', 'kasdfaiabcasdfaabc')
-for match in iterator:
-    print(match.group())
+test = re.findall('\d\d\d\d',x)
+
+print(test)
